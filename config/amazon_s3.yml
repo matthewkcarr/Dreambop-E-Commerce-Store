@@ -1,0 +1,15 @@
+development:
+  bucket_name: buymeyo_prod
+  access_key_id: FFFFFFFFFFFFFFFFFFFFF
+  secret_access_key: 011111101111111111111
+
+test:
+  bucket_name: appname_test
+  access_key_id: 
+  secret_access_key: 
+  distribution_domain: XXXX.cloudfront.net
+
+production:
+  bucket_name: buymeyo_prod
+  access_key_id: 2938839399388383838
+  secret_access_key: 0399383883883883
