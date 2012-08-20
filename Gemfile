@@ -19,6 +19,7 @@ gem 'mysql2'
 #gem 'passenger'
 gem 'activemerchant', :require => "active_merchant"
 gem 'mini_magick'
+gem 'draper'
 
 # Use unicorn as the web server
 # gem 'unicorn'

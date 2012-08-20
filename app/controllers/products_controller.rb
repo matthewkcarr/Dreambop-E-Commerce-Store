@@ -90,6 +90,7 @@ class ProductsController < ApplicationController
     unless @product
       begin
         @product = Product.find(params[:id], :include => [:ds_vendor, :product_images])
+        @product = ProductDecorator.new(@product)
       rescue
         flash[:notice] = "I'm sorry. We couldn't find the product you were looking for"
         redirect_to '/' and return 
